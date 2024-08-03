@@ -51,6 +51,7 @@ html {
     right: 0;
     left: 0;
     bottom: 0;
+    display: flex;
 }
 
 .modal__overlay {
@@ -58,4 +59,11 @@ html {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__body {
+    background-color: var(--white-color);
+    border-radius: 5px;
+    margin: auto;
+    z-index: 1;
 }
